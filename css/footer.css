@@ -1,0 +1,25 @@
+i {
+    color: rgb(246, 224, 81);
+}
+
+div>i:hover {
+    color: white;
+}
+
+/* --------------------------- */
+
+.myfooter {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.myfooter a {
+    color: white;
+}
+
+/* ------------------------------- */
+
+#blizzard:hover {
+    filter: invert();
+}

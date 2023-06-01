@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+    <!-- bootstrap css js 連結 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- 全部的設定 -->
+    <link rel="stylesheet" href="./shop.css/whole.css">
+    <!-- 進擊吧!巫妖王 -->
+    <link rel="stylesheet" href="./shop.css/Lich_King.css">
+    <!-- card_pack -->
+    <link rel="stylesheet" href="./shop.css/card_pack.css">
+    <!-- 彈出視窗 -->
+    <link rel="stylesheet" href="./shop.css/buy.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <!-- 品牌logo -->
+                <a class="navbar-brand" href="#">Battle Net</a>
+
+                <!-- 第一部分:手機版 -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- 第二部分:桌上型電腦 -->
+                <div class="collapse navbar-collapse" id="navDropdown">
+                    <!-- 列出內容 -->
+                    <ul class="navbar-nav me-auto">
+                        <!-- 下拉式選單 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">瀏覽</a>
+                            <!-- 下拉式選單選項 Dropdown items -->
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="">暴雪遊樂場</a></li>
+                                <li><a class="dropdown-item" href="">爐石戰記</a></li>
+                                <li><a class="dropdown-item" href="">暗黑破壞神</a></li>
+                                <li><a class="dropdown-item" href="">鬥陣特工</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="nav-link" href="">情人節特賣會</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">Battle.net點數</a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="">儲值點數</a></li>
+                                <li><a class="dropdown-item" href="">贈送暴雪點數</a></li>
+                                <li><a class="dropdown-item" href="">兌換序號</a></li>
+                                <li><a class="dropdown-item" href="">暴雪點數歷史紀錄</a></li>
+                                <li><a class="dropdown-item" href="">暴雪點數協助</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">帳號</a>
+                            <ul class="dropdown-menu bg-dark account">
+                                <li><a class="dropdown-item" href=""><button
+                                            style="background-color: #009AE4; width: 100%;">登入</button></a></li>
+                                <li><a class="dropdown-item" href="">帳號設定</a></li>
+                                <li><a class="dropdown-item" href="">建立</a></li>
+                                <li><a class="dropdown-item" href="">客服支援</a></li>
+                                <li><a class="dropdown-item" href="">下載桌面應用程式</a></li>
+                            </ul>
+                        </li>
+                        <form style="width: 300px;" class="input-group">
+                            <input class="form-control me-2" type="search" placeholder="搜尋">
+                            <button class="btn btn-success" type="submit">搜尋</button>
+                        </form>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- 進擊吧!巫妖王 -->
+    <div class="Lich_King row">
+        <div class="col-md-6">
+            <div class="back_inner">
+                <img src="./store_img/HS_25p0_MoLK_Logo_BattleNet_zhTW_wHS.webp" alt="">
+                <div class="back_inner2">
+                    <h3>《進擊吧！巫妖王》已正式推出！</h3>
+                    <input type="button" value="立即購買">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
+
+    <!-- 分類 -->
+    <!-- <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav> -->
+
+    <hr>
+    <!-- card_pack -->
+    <div class="card_pack">
+        <div class="card_pack_a" data-bs-toggle="modal" data-bs-target="#buy_modal">
+            <div class="card_pack_b">
+                <img src="./store_img/商店/HS_23p0_Available_Now_PRODUCT-THUMB-960x540.webp" alt="">
+            </div>
+            <div class="card_pack_text">
+                <h3>《海底歷險記》</h3>
+                <p>每包NT$50起</p>
+            </div>
+        </div>
+        <div class="card_pack_a">
+            <div class="card_pack_b">
+                <img src="./store_img/商店/HS_24p4_GoldenPacks_Battlenet_Golden-Alterac-Valley_PRODUCT-THUMB-960x540.webp"
+                    alt="">
+            </div>
+            <div class="card_pack_text">
+                <h3>《決戰奧山》</h3>
+                <p>每包NT$50起</p>
+            </div>
+        </div>
+        <div class="card_pack_a">
+            <div class="card_pack_b">
+                <img src="./store_img/商店/HS_24p4_GoldenPacks_Battlenet_Golden-Forged-in-the-Barrens_PRODUCT-THUMB-960x540.webp"
+                    alt="">
+            </div>
+            <div class="card_pack_text">
+                <h3>《貧瘠之地》</h3>
+                <p>每包NT$50起</p>
+            </div>
+        </div>
+        <div class="card_pack_a">
+            <div class="card_pack_b">
+                <img src="./store_img/商店/HS_24p4_GoldenPacks_Battlenet_Golden-Nathria_PRODUCT-THUMB-960x540.webp" alt="">
+            </div>
+            <div class="card_pack_text">
+                <h3>《納撤亞古堡懸案》</h3>
+                <p>每包NT$50起</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 彈出視窗 -->
+    <!-- 內容不能寫在他的下面? 會不見 -->
+    <form>
+        <div class="modal fade" id="buy_modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>《海底歷險記》卡牌包</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./store_img/購買視窗素材/HS_Exp_23_SunkenCity_BattleNet_BG_Asset_1920x1080.webp" alt="">
+                        
+                        <p class="selling_price">單價$<span id="price">50</span></p>
+                        <br>
+                        <p class="count">購買數量</p>
+                        <input onclick="myconfirm()" id="user_input" type="number" value="1" min="1">
+                        <!-- <input class="btn1" type="button" value="確認"> -->
+                        <br>
+                        <span>小計</span>
+                        <span id="total">50</span>
+                        <input class="sub" type="submit" value="確認">
+                    </div>
+                    <div class="modal-footer">
+
+                    </div>
+                </div>
+            </div>
+
+    </form>
+
+    </div>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <script>
+        function myconfirm() {
+            var x = document.getElementById("price").innerText;
+            console.log(x);
+            var y = document.getElementById("user_input").value;
+            console.log(y);
+
+            var z = parseInt(x) * parseInt(y);
+            console.log(z);
+
+            document.getElementById("total").innerText = z;
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.background_linear {
+    background-image: linear-gradient(to bottom, black, rgb(2, 2, 102));
+    
+}
+
+.hero {
+    border-radius: 5%;
+    margin: 20px;
+    /* height: 300px; */
+    color: white;
+    /* background-color: gray; */
+}
+
+.hero_pic {
+    padding: 5px;
+    border-radius: 5%;
+    width: 100%;
+    height: 200px;
+}

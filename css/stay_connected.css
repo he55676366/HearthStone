@@ -1,0 +1,19 @@
+.Stay_Connected {
+    background-image: url(../img/98924f_a57dc88fed3246afb7c30b1f3b413b43_mv2.webp);
+}
+
+.Stay_Connected h4 {
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.bi {
+    width: 50px;
+    height: 50px;
+    color: yellow;
+    padding-bottom: 20px;
+}
+
+.bi:hover {
+    color: white;
+}

@@ -1,0 +1,16 @@
+.dialogue {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 10px;
+
+}
+
+.dialogue2 {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0 75%);
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 10px;
+}

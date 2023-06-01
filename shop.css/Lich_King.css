@@ -1,0 +1,30 @@
+.Lich_King {
+    background-image: url(../store_img/HS_24p6_PP-SigGoldenPacks_Shop-Carousel&Banner-Mobile-928x400_MM.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin: 10px 20px 0 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.back_inner>img {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.back_inner2 {
+    text-align: center;
+}
+
+.back_inner2>h3 {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .Lich_King {
+        background-image: url(../store_img/HS_24p6_PP-SigGoldenPacks_Shop-Carousel&Banner-Mobile-928x400_MM.webp);
+    }
+    
+}

@@ -1,0 +1,32 @@
+.more_news, .more_news2 , .more_news2 h5{
+    display: inline;
+}
+
+.more_news2 a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+.myselect {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -30px;
+} 
+
+@media screen and (max-width:990px) {
+    .more_news2 {
+        display: none;
+    }
+
+    .more_news {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:990px) {
+    .myselect {
+        display: none;
+    }
+}

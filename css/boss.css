@@ -1,0 +1,55 @@
+.boss {
+    display: flex;
+    height: 250px;
+}
+
+.boss1, .boss2, .boss3, .boss4 {
+    flex: 1;
+}
+
+.boss3 {
+    display: flex;
+    width: 300px;
+}
+
+.boss3_1 {
+    flex: 1;
+    transform: translate(30%, 40%);
+}
+
+.comming {
+    flex: 1;
+}
+
+.boss3 video {
+    width: 130px;
+}
+
+
+.boss2_card img {
+    width: 160px;
+}
+
+.comming_text3 img {
+    width: 160px;
+}
+
+.comming_text2 a {text-decoration: none;}
+
+.boss2_card {
+    transform: translate(-15%, 35%);
+}
+
+.comming_text2 {
+    width: 100px;
+    transform: translate(35%, 200%);
+}
+
+.comming_text {
+    width: 100px;
+    transform: translate(35%, 215%);
+}
+
+.talking {
+    transform: translate(-20%, 20%);
+}

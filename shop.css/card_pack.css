@@ -1,0 +1,55 @@
+.card_pack {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card_pack_a {
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.card_pack_a:hover {
+    transform: scale(1.05);
+}
+
+.card_pack_b img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.card_pack_text {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .card_pack_a {
+        width: 160px;
+        height: 160px;
+    }
+
+    .card_pack_b img {
+        height: 100px;
+    }
+
+    .card_pack_text h3 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .card_pack_text  {
+        font-size: 10px;
+    }
+    .card_pack_text p {
+        margin-bottom: -2px;
+    }
+
+}

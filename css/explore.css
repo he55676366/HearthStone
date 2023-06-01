@@ -1,0 +1,182 @@
+.blue_background {
+    background-image: url(../img/homepage_blue_felt_update.jpg);
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.explore_a {
+    width: 300px;
+    height: 200px;
+    border: 1px solid lightcoral;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.explore_a:hover {
+    transform: translate(0, -10%);
+}
+
+
+.explore1 {
+    border: 2px solid rgb(245, 221, 7);
+    margin-bottom: 10px;
+    background-image: url(../img/探索更多/homepage_discover_card_library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore2 {
+    border: 2px solid rgb(245, 221, 7);
+    margin-bottom: 10px;
+    background-image: url(../img/探索更多/homepage_discover_leaderboards.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore3 {
+    border: 2px solid rgb(245, 221, 7);
+    margin-bottom: 10px;
+    background-image: url(../img/探索更多/homepage_discover_esports.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore4 {
+    border: 2px solid rgb(245, 221, 7);
+    margin-bottom: 10px;
+    background-image: url(../img/探索更多/homepage_discover_patch_notes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.explore_text strong {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow:
+
+        -1px -1px 0 #000,
+
+        1px -1px 0 #000,
+
+        -1px 1px 0 #000,
+
+        1px 1px 0 #000,
+
+        2px 2px 2px black;
+}
+
+@media screen and (max-width: 1300px) {
+    .explore_a {
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .explore_a {
+        width: 350px;
+        height: 175px;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .explore_a {
+        width: 300px;
+        height: 150px;
+    }
+
+    .explore_text strong {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .explore_a {
+        width: 220px;
+        height: 110px;
+        margin: 20px;
+    }
+
+    .explore_text strong {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .explore_a {
+        width: 200px;
+        height: 100px;
+    }
+
+    .explore_text strong {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .explore_a {
+        width: 170px;
+        height: 85px;
+        margin: 10px;
+    }
+
+    .explore_text strong {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .explore_a {
+        width: 300px;
+        height: 150px;
+    }
+
+    .explore_text strong {
+        font-size: 20px;
+    }
+}
+
+/* @media screen and (max-width: 400px) {
+    .explore_a {
+        width: 300px;
+        height: 150px;
+    }
+
+    .explore_text p {
+        font-size: 20px;
+    }
+} */
+
+/* @media screen and (max-width: 350px) {
+    .explore_a {
+        width: 300px;
+        height: 150px;
+    }
+
+    .explore_text p {
+        font-size: 30px;
+    }
+
+    .blue_background h3 {
+        font-size: 20px;
+    }
+} */
+
+/* @media screen and (max-width: 768px) {
+    .explore_a {
+        width: 160px;
+        height: 100px;
+    }
+
+    .explore_text p {
+        font-size: 25px;
+    }
+} */

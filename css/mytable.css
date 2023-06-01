@@ -1,0 +1,87 @@
+.mytable {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    transform: translate(0, 0);
+}
+
+.mytable video {
+    width: 600px;
+}
+
+
+.mytable_rwd {
+    color: lightgreen;
+    text-align: center;
+    background-image: url(../img/背景圖/images\ \(1\).jfif);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+
+
+.mytable_rwd video {
+    width: 300px;
+}
+
+.mytable_rwd1 {
+    transform: translate(0, 0);
+}
+
+.mytable_rwd2 {
+    padding-bottom: 50px;
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .mytable video {
+        width: 500px;
+    }
+
+    .join p {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .mytable video {
+        width: 400px;
+    }
+
+    .join p {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .mytable video {
+        width: 300px;
+    }
+
+    .join p {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .mytable {
+        display: none;
+    }
+
+    .line video {
+        display: none;
+    }
+
+    /* .join p {
+        color: ;
+    } */
+}
+
+
+@media screen and (min-width:620px) {
+    .mytable_rwd {
+        display: none;
+    }
+}

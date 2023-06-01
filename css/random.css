@@ -1,0 +1,244 @@
+.red_bg {
+    background-image: url(../img/red-felt-bg.jpg);
+}
+
+.discover {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    text-shadow:
+
+        -1px -1px 0 #000,
+
+        1px -1px 0 #000,
+
+        -1px 1px 0 #000,
+
+        1px 1px 0 #000,
+
+        2px 2px 2px black;
+}
+
+
+.discover input {
+    width: 250px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.discover input:nth-of-type(1) {
+    background-color: lightgreen;
+    border-radius: 20px;
+
+    transition: 0.5s ease-in;
+}
+
+.discover input:nth-of-type(1):hover {
+    box-shadow: inset 250px 0 0 0 yellow;
+    cursor: pointer;
+}
+
+.discover input:nth-of-type(2) {
+    background-color: lightgreen;
+    border-radius: 20px;
+
+    transition: 0.5s ease-in;
+}
+
+.discover input:nth-of-type(2):hover {
+    box-shadow: inset -250px 0 0 0 yellow;
+    cursor: pointer;
+}
+
+.random {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.random1 {
+    width: 230px;
+    height: 400px;
+    padding: 20px;
+}
+
+.flip-box {
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-back {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front img {
+    width: 100%;
+}
+
+.flip-box-back img {
+    width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+    .random1 {
+        width: 300px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .random1:nth-of-type(3),
+    .random1:nth-of-type(4) {
+        display: none;
+    }
+
+    .random1 {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .random1 {
+        width: 200px;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .random1:nth-of-type(2) {
+        display: none;
+    }
+
+    .random1 {
+        width: 300px;
+        margin-bottom: 15px;
+    }
+}
+
+/* 
+@media screen and (max-width: 650px) {
+    .random1 {
+        width: 250px;
+        margin-bottom: -80px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .random1 {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .random1 {
+        width: 200px;
+        margin-bottom: -130px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .random1 {
+        width: 180px;
+        margin-bottom: -160px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .random1 {
+        width: 150px;
+        margin-bottom: -210px;
+    }
+} */
+
+@media screen and (max-width: 350px) {
+    .random1 {
+        width: 300px;
+        margin-bottom: 0px;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .random1 {
+        width: 170px;
+        margin-bottom: -180px;
+    }
+
+    .discover h2 {
+        margin: 0 25px 0 25px;
+        font-size: 30px;
+    }
+} */
+
+
+/* 舊的設定 */
+/* .myrandom {
+    background-image: url(../爐石素材/red-felt-bg.jpg);
+}
+
+.random {
+    width: 100%;
+}
+
+.random:hover {
+    background-color: lightblue;
+    box-shadow: 0 0 10px 7px lightblue;
+}
+
+.discover {
+    text-align: center;
+    margin: 0 20px -60px 20px;
+    padding-top: 40px;
+}
+
+.discover input,
+.discover2 input {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.discover>h2 {
+    color: chartreuse;
+}
+
+
+@media screen and (min-width: 768px) {
+    .discover {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .discover2 {
+        display: none;
+    }
+
+    .ran {
+        transform: scale(1.2);
+    }
+
+    .ran2 {
+        margin-right: 20px;
+    }
+
+
+
+} */
